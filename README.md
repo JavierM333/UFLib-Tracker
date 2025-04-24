@@ -84,3 +84,58 @@ GET https://libcal.uflib.ufl.edu/1.1/spaces/status?api_key=MY_KEY
 - UF Libraries hours (called daily) API CALL
 https://api3.libcal.com/api_hours_today.php?iid=YOUR_IID&lid[]=LID1&lid[]=LID2&format=json
 
+
+### Main Features
+* Home Screen: List of libraries with occupancy bars
+* Library Detail Screen: Pie chart, today's hours, notification bell
+* Settings Screen: Theme toggle, sorting preferences, library filter
+* Notification Modal: Set occupancy thresholds and alerts
+* Data Fetching: API integration for occupancy and hours
+* Caching: To avoid API rate limits
+* App Theme: Light/Dark/Auto support
+* (Optional) Favorites tab
+
+#### Sprint 1: Project Setup + API Prototypes
+  Set up project repo and dev environment
+  
+  Test calling LibCal APIs from local script
+  
+  Create GET /occupancy and /hours backend mock (local or serverless)
+
+#### Sprint 2: Home Screen + API Integration
+  Build Home screen UI with mock data
+  
+  Integrate backend endpoints (real API → S3/dummy JSON)
+  
+  Poll every 10 mins for new data
+
+##### Sprint 3: Library Detail + Notification Popup
+  Add Library Detail UI: pie chart + today's hours
+  
+  Add notification bell and modal popup
+
+#### Sprint 4: Settings + Theme Toggle
+  Build settings page
+  
+  Implement theme switching (light, dark, auto)
+  
+  Sorting toggle, library order controls
+
+#### Sprint 5: Polish + Favorites + Testing
+  Implement Favorites tab
+  
+  Finalize navigation
+  
+  Bug fixes + styling cleanup
+
+### Goals
+
+* Set up GitHub repo and environment
+* Make successful API calls for occupancy and hours
+* Achievable using only fetch or Axios + mock endpoints
+* Relevant for backend data integration
+* Time-bound to complete in Week 1
+
+
+
+
