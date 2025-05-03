@@ -66,7 +66,8 @@ UFLib Tracker is intended to help UF students keep track of everything libraries
 → Back to Home Screen.
 
 ## Wireframes ##
-![wireframe Medium](https://github.com/user-attachments/assets/dd8c7478-0252-48fe-b401-97675e073174)
+<img width="495" alt="image" src="https://github.com/user-attachments/assets/55598941-6c63-4a4c-87f9-99cb1fe64f27" />
+
 
 ## Schema
 ![E381EEDE-B1BC-4734-9B0B-C28E0D34C8BA Small](https://github.com/user-attachments/assets/c51b4002-1cf3-4c99-8d53-85a3147a859c)
