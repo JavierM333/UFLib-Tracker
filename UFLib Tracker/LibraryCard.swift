@@ -6,12 +6,12 @@
 //
 import SwiftUI
 
-struct Library: Identifiable {
+struct Library: Identifiable, Codable {
     let id = UUID()
     let name : String
-    var openingHours: Int
-    var closingHours: Int
-    var maxOccupancy: Int
+    let openingHours: Int
+    let closingHours: Int
+    let maxOccupancy: Int
     var currOccupancy: Int
     var occupancyNotif: Bool
 }
@@ -35,7 +35,6 @@ struct LibraryCard: View {
             .background(
                 RoundedRectangle(cornerRadius: 10)
                     .fill(Color.white)
-                    .shadow(radius: 1)
             )
             .padding(.horizontal)
     }
