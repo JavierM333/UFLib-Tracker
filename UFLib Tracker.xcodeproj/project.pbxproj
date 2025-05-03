@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C5227BAD2DC43D6500E14D73 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5227BAC2DC43D6500E14D73 /* Launch Screen.storyboard */; };
+		C56226C82DC5BC9D00EC1B46 /* IBMPlexSans-Italic-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C56226C62DC5BC9D00EC1B46 /* IBMPlexSans-Italic-VariableFont_wdth,wght.ttf */; };
+		C56226C92DC5BC9D00EC1B46 /* IBMPlexSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C56226C72DC5BC9D00EC1B46 /* IBMPlexSans-VariableFont_wdth,wght.ttf */; };
+		C59656272DBEF6F600FCC16E /* Anybody.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C59656262DBEF6F600FCC16E /* Anybody.ttf */; };
+		C59656282DBEF6F600FCC16E /* Anybody-italics.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C59656252DBEF6F600FCC16E /* Anybody-italics.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C59656062DBEC96800FCC16E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5227BAC2DC43D6500E14D73 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C56226C62DC5BC9D00EC1B46 /* IBMPlexSans-Italic-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Italic-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
+		C56226C72DC5BC9D00EC1B46 /* IBMPlexSans-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
 		C59655F62DBEC96700FCC16E /* UFLib Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UFLib Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59656052DBEC96800FCC16E /* UFLib TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UFLib TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C596560F2DBEC96800FCC16E /* UFLib TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UFLib TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59656252DBEF6F600FCC16E /* Anybody-italics.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anybody-italics.ttf"; sourceTree = "<group>"; };
+		C59656262DBEF6F600FCC16E /* Anybody.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Anybody.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +88,11 @@
 		C59655ED2DBEC96700FCC16E = {
 			isa = PBXGroup;
 			children = (
+				C56226C62DC5BC9D00EC1B46 /* IBMPlexSans-Italic-VariableFont_wdth,wght.ttf */,
+				C56226C72DC5BC9D00EC1B46 /* IBMPlexSans-VariableFont_wdth,wght.ttf */,
+				C5227BAC2DC43D6500E14D73 /* Launch Screen.storyboard */,
+				C59656252DBEF6F600FCC16E /* Anybody-italics.ttf */,
+				C59656262DBEF6F600FCC16E /* Anybody.ttf */,
 				C59655F82DBEC96700FCC16E /* UFLib Tracker */,
 				C59656082DBEC96800FCC16E /* UFLib TrackerTests */,
 				C59656122DBEC96800FCC16E /* UFLib TrackerUITests */,
@@ -212,6 +230,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56226C82DC5BC9D00EC1B46 /* IBMPlexSans-Italic-VariableFont_wdth,wght.ttf in Resources */,
+				C56226C92DC5BC9D00EC1B46 /* IBMPlexSans-VariableFont_wdth,wght.ttf in Resources */,
+				C59656272DBEF6F600FCC16E /* Anybody.ttf in Resources */,
+				C5227BAD2DC43D6500E14D73 /* Launch Screen.storyboard in Resources */,
+				C59656282DBEF6F600FCC16E /* Anybody-italics.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,11 +418,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = Anybody.ttf;
 				DEVELOPMENT_TEAM = 75CZL24ALW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UFLib-Tracker-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -423,11 +449,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = Anybody.ttf;
 				DEVELOPMENT_TEAM = 75CZL24ALW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UFLib-Tracker-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
